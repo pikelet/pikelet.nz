@@ -13,30 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: tc.nz
+title: pikelet.nz
 email: Coming soon!
 description: This site is still in progress, sorry about the mess!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tc.nz" # the base hostname & protocol for your site, e.g. http://example.com
-author: tcfoxtaur
+url: "https://pikelet.nz" # the base hostname & protocol for your site, e.g. http://example.com
+author: pikelet
 twitter:
-  username: tcfoxtaur
-github:
-  username: TCFox
-  jekyllrepo: tc.nz
+  username: pikelet
 logo: https://site-assets.tc.nz/logo-e6d3f66e466924800195eec04771874fedaad8bcc7a35cb7cecd6077d79496ff.png
 social:
-  name: TC Foxtaur
+  name: pikelet
   links:
-    - https://twitter.com/TCFoxtaur
-    - https://github.com/TCFox
-    - https://keybase.io/TCFox
+    - https://twitter.com/pikelet
+    - https://github.com/pikelet
+    - https://keybase.io/pikelet
 webmaster_verifications:
-  google: 9K1topiSz1CV4ER6E5QZKSFpU3NXnB2-tAEcpyXUHUA
-  bing: 7BDF6AFFDE02513BEB27C54250C203FF
-
-analytics:
-  app_insights: 39f046d7-7aee-40d3-97e0-c42a17e287cc
+  google: 
+  bing: 
 
 # Build settings
 encoding: UTF-8
@@ -51,8 +45,6 @@ gems:
 include:
   - .well-known
 exclude:
-  - deploy.cmd
-  - getruby.cmd
   - Gemfile
   - Gemfile.lock
 
@@ -66,7 +58,7 @@ defaults:
 
 assets:
   cache_type: filesystem
-  cdn: https://site-assets.tc.nz
+  cdn: https://cdn.pikelet.nz
   skip_baseurl_with_cdn: true
   skip_prefix_with_cdn: true
   prefix: "/assets"
