@@ -7,5 +7,5 @@ phases:
   build:
     commands:
       - echo "******** Building Jekyll site ********"
+      - jekyll build
       - echo "******** Uploading to S3 ********"
-      - aws s3 sync _site/ s3://prod.pikelet.nz
